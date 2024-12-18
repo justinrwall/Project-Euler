@@ -1,1 +1,1 @@
-# project-euler
+# <a href="https://projecteuler.net">Project Euler</a>
