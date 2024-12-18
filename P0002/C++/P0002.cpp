@@ -6,7 +6,9 @@ std::map<int, int> m{{1, 1}, {2, 1}};
 int fibonacci(int n)
 {
     if (m.find(n) != m.end())
+    {
         return m[n];
+    }
 
     m[n] = fibonacci(n - 1) + fibonacci(n - 2);
 
@@ -22,7 +24,9 @@ int main()
     {
         f = fibonacci(i);
         if (f % 2 == 0)
+        {
             sum += f;
+        }
     }
 
     std::cout << sum << '\n';
